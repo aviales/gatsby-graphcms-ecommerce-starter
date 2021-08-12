@@ -1,0 +1,60 @@
+{
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "1.0.0-beta.3",
+    "@stripe/stripe-js": "1.0.0-beta.4",
+    "algoliasearch": "^4.2.0",
+    "apollo-datasource-graphql": "1.3.2",
+    "apollo-datasource-rest": "^0.6.9",
+    "apollo-server-lambda": "2.9.12",
+    "classnames": "^2.2.6",
+    "currency-formatter": "1.5.5",
+    "es6-promise": "4.2.8",
+    "gatsby": "2.18.12",
+    "gatsby-image": "^2.2.33",
+    "gatsby-plugin-algolia": "^0.9.0",
+    "gatsby-plugin-postcss": "2.1.13",
+    "gatsby-plugin-purgecss": "4.0.1",
+    "gatsby-plugin-react-helmet": "^3.1.18",
+    "gatsby-plugin-react-svg": "3.0.0",
+    "gatsby-plugin-sharp": "^2.3.3",
+    "gatsby-source-filesystem": "^2.1.42",
+    "gatsby-source-graphcms": "2.0.0-next.9",
+    "gatsby-source-printful": "1.2.0",
+    "gatsby-transformer-sharp": "^2.3.5",
+    "graphcms-image": "^1.1.0-beta4",
+    "graphql-hooks": "4.1.1",
+    "isomorphic-fetch": "2.2.1",
+    "md5": "^2.2.1",
+    "postmark": "2.3.4",
+    "query-string": "^6.9.0",
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "react-helmet": "^5.2.1",
+    "react-hook-form": "4.5.6",
+    "react-instantsearch-dom": "^6.4.0",
+    "react-toastify": "^5.4.1",
+    "react-use-cart": "1.2.2",
+    "stripe": "^7.14.0"
+  },
+  "devDependencies": {
+    "dotenv": "8.2.0",
+    "husky": "3.0.9",
+    "postcss-preset-env": "6.7.0",
+    "prettier": "1.18.2",
+    "pretty-quick": "2.0.0",
+    "tailwindcss": "1.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
